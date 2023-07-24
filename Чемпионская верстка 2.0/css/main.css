@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.box {
+    height: 500px;
+    width: 1000px;
+    padding: 10px 4px ;
+    border: 2px solid black;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    overflow: auto;
+    background: gray;
+    }
+.box__card {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    padding: 20px 0px 0px 15px;
+    background-color: darkorange;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    box-shadow: inset 5px 5px 10px cadetblue, inset -5px -5px 10px cadetblue;
+}
+.box__card-title {
+    margin-bottom: 20px;
+}
+.box__card-text {
+}
